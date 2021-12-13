@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+  * {margin:0; padding:0; box-sizing:border-box;}
+      section {height:100vh; width:100vw;}
+
+      #main_wrap {width:1200px; height:auto; margin:0 auto;}
+      #main_wrap .notice {width:100%; height:100px;}
+      #main_wrap .notice > h3 {font-size:1.05em; line-height:1.5; padding-top:23px; font-family: 'Noto Sans KR', sans-serif;}
+      #main_wrap .notice > h3 > span:hover {text-decoration:underline; cursor:grab;}
+
+      /* container1 */
+      .container1 {width:100%; height:600px; margin-top:50px; display:flex; flex-direction:row;}
+      .container1 .img_wrap {width:60%; height:100%;}
+      .container1 .text_wrap {width:480px; height:100%;}
+      .container1 .text_wrap .top_ctn {width:100%; height:40%;}
+      .container1 .text_wrap .top_ctn > h1 {padding:0px 0px 15px 48px; font-size:2em; font-family: 'Righteous', cursive;}
+      .container1 .text_wrap .top_ctn > p {padding-left:48px; font-size:0.95em; font-weight:bold; line-height:1.5; font-family: 'Noto Sans KR', sans-serif;}
+
+      .container1 .text_wrap .middle_ctn2 {width:100%; height:35%;}
+      .container1 .text_wrap .middle_ctn2 .left_ctn {width:50%; height:100%; float:left; border-right:1px solid #000;}
+      .container1 .text_wrap .middle_ctn2 .right_ctn {width:50%; height:100%; float:right;}
+      .container1 .text_wrap .middle_ctn2 p {text-align:center; font-size:0.9em; padding-top:15px; line-height:1.5; font-family: 'Noto Sans KR', sans-serif;}
+      .container1 .text_wrap .middle_ctn2 p > span {font-weight:bold; font-size:1.1em;}
+
+      .container1 .text_wrap .bottom_ctn {width:100%; height:25%;}
+      .container1 .text_wrap .bottom_ctn > button {width:90%; height:50px; font-weight:bold; font-size:1.05em; cursor:pointer; background-color:#000; color:#fff; border:none; margin:99px 0px 0px 48px; font-family: 'Noto Sans KR', sans-serif;}
+      .container1 .text_wrap .bottom_ctn > button:hover {background-color:#fff; color:#000; border:2px solid #000;}
+      /* container1 끝 */
+
+      /* container2 */
+      .container2 {width:100%; height:600px; margin-top:80px; display:flex; flex-direction:row-reverse;}
+      .container2 .img_wrap {width:60%; height:100%;}
+      .container2 .text_wrap {width:480px; height:100%;}
+      .container2 .text_wrap .top_ctn {width:100%; height:40%;}
+      .container2 .text_wrap .top_ctn > h1 {padding-bottom:15px; font-size:2em; font-family: 'Righteous', cursive;}
+      .container2 .text_wrap .top_ctn > p {font-size:0.95em; font-weight:bold; line-height:1.5; font-family: 'Noto Sans KR', sans-serif;}
+
+      .container2 .text_wrap .middle_ctn2 {width:90%; height:35%;}
+      .container2 .text_wrap .middle_ctn2 .left_ctn {width:50%; height:100%; float:left; border-right:1px solid #000;}
+      .container2 .text_wrap .middle_ctn2 .right_ctn {width:50%; height:100%; float:right;}
+      .container2 .text_wrap .middle_ctn2 p {text-align:center; font-size:0.9em; padding-top:20px; line-height:1.5; font-family: 'Noto Sans KR', sans-serif;}
+      .container2 .text_wrap .middle_ctn2 p > span {font-weight:bold; font-size:1.1em;}
+
+      .container2 .text_wrap .bottom_ctn {width:100%; height:25%;}
+      .container2 .text_wrap .bottom_ctn > button {width:90%; height:50px; font-weight:bold; font-size:1.05em; cursor:pointer; background-color:#000; color:#fff; border:none; margin:99px 48px 0px 0px; font-family: 'Noto Sans KR', sans-serif;}
+      .container2 .text_wrap .bottom_ctn > button:hover {background-color:#fff; color:#000; border:2px solid #000;}
+      /* container2 끝 */
+
+      /* container3 */
+      .container3 {width:100%; height:600px; margin:80px 0px 80px 0px; display:flex; flex-direction:row;}
+      .container3 .img_wrap {width:60%; height:100%;}
+      .container3 .text_wrap {width:480px; height:100%;}
+      .container3 .text_wrap .top_ctn {width:100%; height:40%;}
+      .container3 .text_wrap .top_ctn > h1 {padding:0px 0px 15px 48px; font-size:2em; font-family: 'Righteous', cursive;}
+      .container3 .text_wrap .top_ctn > p {padding-left:48px; font-size:0.95em; font-weight:bold; line-height:1.5; font-family: 'Noto Sans KR', sans-serif;}
+
+      .container3 .text_wrap .middle_ctn2 {width:90%; height:35%; margin-left:48px;}
+      .container3 .text_wrap .middle_ctn2 .left_ctn {width:50%; height:100%; float:left; border-right:1px solid #000;}
+      .container3 .text_wrap .middle_ctn2 .right_ctn {width:50%; height:100%; float:right;}
+      .container3 .text_wrap .middle_ctn2 p {text-align:center; font-size:0.9em; padding-top:20px; line-height:1.5; font-family: 'Noto Sans KR', sans-serif;}
+      .container3 .text_wrap .middle_ctn2 p > span {font-weight:bold; font-size:1.1em;}
+
+      .container3 .text_wrap .bottom_ctn {width:100%; height:25%;}
+      .container3 .text_wrap .bottom_ctn > button {width:90%; height:50px; font-weight:bold; font-size:1.05em; cursor:pointer; background-color:#000; color:#fff; border:none; margin:99px 0px 0px 48px; font-family: 'Noto Sans KR', sans-serif;}
+      .container3 .text_wrap .bottom_ctn > button:hover {background-color:#fff; color:#000; border:2px solid #000;}
+      /* container3 끝 */
+
+      /* banner */
+      .banner {position:relative; width:100%; height:100%; overflow:hidden;}
+      .slide {position:absolute; list-style:none; top:0; left:0;}
+      .slide li {float:left; width:1550px; height:600px; margin:0; padding:0; position:absolute;}
+      .slide > li > div {width:100%; height:100%;}
+      .box {width:100%; height:100%;}
+
+      /* banner2 */
+      .banner2 {position:relative; width:100%; height:100%; overflow:hidden;}
+      .slide2 {position:absolute; list-style:none; top:0; left:0;}
+      .slide2 li {float:left; width:1250px; height:600px; margin:0; padding:0; position:absolute;}
+      .slide2 > li > div {width:100%; height:100%;}
+      .box2 {width:100%; height:100%;}
+
+      /* banner3 */
+      .banner3 {position:relative; width:100%; height:100%; overflow:hidden;}
+      .slide3 {position:absolute; list-style:none; top:0; left:0;}
+      .slide3 li {float:left; width:1550px; height:600px; margin:0; padding:0; position:absolute;}
+      .slide3 > li > div {width:100%; height:100%;}
+      .box3 {width:100%; height:100%;}

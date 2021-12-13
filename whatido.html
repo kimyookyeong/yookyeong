@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WHAT I DO</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/whatido.css" rel="stylesheet">
+
+    <style>
+      #container3 .work_list > ul {list-style:georgian inside url('img/check.png');}
+    </style>
+
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <div id="header_top">
+          <div class="logo"><h1><a href="index.html">Web Publisher</a></h1></div>
+
+          <div class="name">
+            <h3>Kim Yoo Kyeong</h3>
+            <div class="icon_wrap">
+              <img src="img/email_icon.png" alt="email_icon">
+              <p class="arrow_box1">roseyoo25@gmail.com</p>
+              <img src="img/kakao_talk_icon.png" alt="kakao_talk_icon">
+              <p class="arrow_box2">rlaghtn0809</p>
+              <img src="img/phone_icon.png" alt="phone_icon">
+              <p class="arrow_box3">010-6661-6268</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="header_bottom">
+          <ul>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="whatido.html">WHAT I DO</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div id="main_wrap">
+        <div id="container2">
+          <div class="container2_title">
+            <h1>SKILL</h1>
+          </div>
+
+          <div class="skill_wrap">
+            <div class="radialBar">
+              <div id="container_1"><h3>55%</h3></div>
+              <div id="container_2"><h3>90%</h3></div>
+              <div id="container_3"><h3>75%</h3></div>
+              <div id="container_4"><h3>60%</h3></div>
+            </div>
+
+            <div class="radialBar">
+              <div class="p_box">
+                <p>PHOTOSHOP<br>
+                ILLUSTRATOR<br>
+                <br>
+                <span>사진보정 및 합성 가능</span></p>
+              </div>
+
+              <div class="p_box">
+                <p>HTML<br>
+                CSS<br>
+                <br>
+                <span>웹표준 준수 & 반응형 제작 가능</span></p>
+              </div>
+
+              <div class="p_box">
+                <p>JAVASCRIPT<br>
+                j-QUERY<br>
+                <br>
+                <span>문법에 대한 이해 & 플러그인 사용 경험</span></p>
+              </div>
+
+              <div class="p_box">
+                <p>JSON<br>
+                OPEN API<br>
+                <br>
+                <span>카카오, 공공 데이터 포털 활용 경험</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="container3">
+          <div class="container3_title">
+            <h1>WORK</h1>
+          </div>
+
+          <div class="work_list">
+            <ul>
+              <li><b>&#32;UI Development</b><br>
+              웹 퍼블리싱 HTML, CSS, JS를 이해하고 있으며 잘 다룹니다!<br>
+              유지보수를 고려한 코드 작성 등의 탄탄한 업무 프로세스를 지향합니다.</li>
+
+              <li><b>&#32;Markup</b><br>
+              웹 표준을 바탕으로 꼼꼼한 시멘틱 마크업을 작성합니다!<br>
+              검색엔진최적화(SEO)를 통해 더 많은 사용자들에게 접근할 수 있도록 합니다.</li>
+
+              <li><b>&#32;Co-work</b><br>
+              디자이너, 개발자와 가깝게 소통하며, 원활한 협업을 위해서 노력합니다!<br>
+              의도를 이해하고 존중하며 '함께' 좋은 결과물을 만듭니다.</li>
+
+              <li><b>&#32;Skills</b><br>
+              코드를 잘 그려내기 위해 계속 공부 중입니다!<br>
+              Git, Zeplin 등 생산성과 협업을 위한 지식을 배우고 적용하며 공유합니다.</li>
+
+              <li><b>&#32;For Users</b><br>
+              다양한 직군과 함께 사용자 입장에서 생각하고 고민하는 걸 좋아합니다!<br>
+              반응형, 인터랙션 등 사용자에게 편하고 즐거운 UX를 만드는 데 관심이 많습니다.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div id="ft_box">
+          <p>thanks for your visiting<br>
+          <br>
+          Copyrightⓒ 2021. Web Publisher Kim Yoo Kyeong. All rights reserved<br>
+          <br>
+          본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 제작되었습니다.<br>
+          홈페이지의 일부 내용과 이미지 등은 그 출처가 따로 있음을 밝힙니다.</p>
+        </div>
+      </footer>
+    </section>
+
+    <script>
+      var bar1 = new ProgressBar.Circle(container_1 , {
+        color: '#808080',
+        trailColor: '#e5e5e5',
+        trailWidth: 6,
+        duration: 1400,
+        easing: 'bounce',
+        strokeWidth: 6,
+        from: {color: '#808080', a:0},
+        to: {color: '#000', a:1},
+
+        // 모든 애니메이션 호출에 대한 기본 단계 기능 설정
+        step: function(state, circle) {
+          circle.path.setAttribute('stroke', state.color);
+        }
+      });
+
+      var bar2 = new ProgressBar.Circle(container_2 , {
+        color: '#808080',
+        trailColor: '#e5e5e5',
+        trailWidth: 6,
+        duration: 1400,
+        easing: 'bounce',
+        strokeWidth: 6,
+        from: {color: '#808080', a:0},
+        to: {color: '#000', a:1},
+
+        // 모든 애니메이션 호출에 대한 기본 단계 기능 설정
+        step: function(state, circle) {
+          circle.path.setAttribute('stroke', state.color);
+        }
+      });
+
+      var bar3 = new ProgressBar.Circle(container_3 , {
+        color: '#808080',
+        trailColor: '#e5e5e5',
+        trailWidth: 6,
+        duration: 1400,
+        easing: 'bounce',
+        strokeWidth: 6,
+        from: {color: '#808080', a:0},
+        to: {color: '#000', a:1},
+
+        // 모든 애니메이션 호출에 대한 기본 단계 기능 설정
+        step: function(state, circle) {
+          circle.path.setAttribute('stroke', state.color);
+        }
+      });
+
+      var bar4 = new ProgressBar.Circle(container_4 , {
+        color: '#808080',
+        trailColor: '#e5e5e5',
+        trailWidth: 6,
+        duration: 1400,
+        easing: 'bounce',
+        strokeWidth: 6,
+        from: {color: '#808080', a:0},
+        to: {color: '#000', a:1},
+
+        // 모든 애니메이션 호출에 대한 기본 단계 기능 설정
+        step: function(state, circle) {
+          circle.path.setAttribute('stroke', state.color);
+        }
+      });
+
+      bar1.animate(0.55); // 0.0에서 1.0 사이의 숫자
+      bar2.animate(0.9);
+      bar3.animate(0.75);
+      bar4.animate(0.6);
+    </script>
+  </body>
+</html>
